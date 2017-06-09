@@ -7,6 +7,10 @@ Add the contents of `tmux.conf` from this repo into your `.tmux.conf`
 
     cat tmux.conf >> ~/.tmux.conf
 
+# Caveats or possible improvements
+* After re-attaching to your tmux session you have to press `enter`/`return` at least once before things are hooked up again
+* There's a small bit of overhead added to each of the shell commands you invoke.
+
 # Sources
 
 * [https://babushk.in/posts/renew-environment-tmux.html](https://babushk.in/posts/renew-environment-tmux.html)
